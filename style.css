@@ -1,6 +1,7 @@
 * {
+    line-height: 1.5;
     margin: 0;
-    padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 #logo {
@@ -42,6 +43,12 @@ h1 {
 
 .space {
     margin-right: 100px;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic; 
 }
 
 header {
