@@ -1,12 +1,12 @@
 * {
+    line-height: 1.5;
     margin: 0;
-    padding: 0;
 }
 
 #fenci-hlava {
     text-align: center;
     font-size: 40px;
-    background-image: url(fenek_foto.jpg);
+    background-image: url(obrazky/fenek_foto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,7 +28,7 @@ h1 {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(255, 196, 0);
 }
 #menu a {
     display: inline-block;
@@ -40,10 +40,35 @@ h1 {
 #menu a:hover,
 #menu a:focus,
 #menu a:active {
-    background-color: #756158;
+    background-color: rgb(179, 137, 1);
 }
 
 #logo {
     width: 55px; 
     vertical-align: middle;
+}
+
+#galerie {
+    text-align: center;
+    background-color: rgb(255, 155, 23);
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.obrazek-fenka {
+    width: 32%;
+    border: 2px solid #756158;
+    border-radius: 10px;
+}
+
+section {
+    padding: 50px 15% 50px 15%;
+}
+
+.space {
+    margin-right: 100px;
 }
