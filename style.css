@@ -3,46 +3,67 @@
     padding: 0;
 }
 
-#head {
-    font-size: 70px;
-    text-align: center;
+#logo {
+    width: 55px; 
+    vertical-align: middle;
 }
 
 #menu li {
     display: inline-block;
-    font-size: 23px;
+    font-size: 55px;
 }
 
 #menu {
     text-align: center;
-    /* padding-right: 200px; */
     padding-left: 20px;
     padding-right: 20px;
     background-color: rgb(105, 105, 105);
 }
-
 #menu a {
     display: inline-block;
+    color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
-#logo {
-    width: 30px;
-    /* margin-right: 150px; */
-    vertical-align: middle;
-    padding-bottom: 0px;
-    padding-top: 0px;
+#menu a:hover,
+#menu a:focus,
+#menu a:active {
+    background-color: #756158;
 }
 
-.menu-text {
-    display: inline;
-    color: whitesmoke;
-    font-family: 'Nanum Gothic', sans-serif;
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
 }
 
-/* .menu-text:hover,
-.menu-text:focus,
-.menu-text:active {
-    background-color: rgb(41, 41, 41);
-} */
+.space {
+    margin-right: 100px;
+}
+
+#hlava-hlavni-stranky {
+    padding: 150px 30px;
+    background-image: url(head.jpg);
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#fenci-hlava {
+    text-align: center;
+    font-size: 40px;
+    background-image: url(fenci/fenek_foto.jpg);
+    padding: 160px 30px;
+    color: rgb(196, 153, 12);
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+#text-fenci {
+    color: rgb(196, 153, 12);
+}
