@@ -28,20 +28,20 @@ h2 {
 
 #menu li {
     display: inline-block;
-    font-size: 55px;
+    font-size: 30px;
 }
 
 #menu {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: rgb(255, 196, 0);
+    background-color: rgb(245, 174, 82);
 }
 #menu a {
     display: inline-block;
     color: white;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 10px 20px;
 }
 
 #menu a:hover,
@@ -50,8 +50,8 @@ h2 {
     background-color: rgb(179, 137, 1);
 }
 
-#logo {
-    width: 55px; 
+.logo {
+    width: 30px; 
     vertical-align: middle;
 }
 
@@ -78,4 +78,11 @@ section {
 
 .space {
     margin-right: 100px;
+}
+
+#konec {
+    background-color: rgb(245, 174, 82);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }

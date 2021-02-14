@@ -5,26 +5,26 @@
 }
 
 #logo {
-    width: 55px; 
+    width: 30px; 
     vertical-align: middle;
 }
 
 #menu li {
     display: inline-block;
-    font-size: 55px;
+    font-size: 30px;
 }
 
 #menu {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: rgb(105, 105, 105);
+    background-color: #282425;
 }
 #menu a {
     display: inline-block;
     color: white;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 10px 20px;
 }
 
 #menu a:hover,
@@ -49,6 +49,7 @@ h1,
 h2 {
     font-family: 'Playfair Display', serif;
     font-style: italic; 
+    text-align: center;
 }
 
 header {
@@ -57,4 +58,23 @@ header {
     background-position: center;
     background-size: cover;
     padding: 150px 30px;
+}
+
+#konec {
+    background-color: #282425;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    padding: 50px 15% 50px 15%;
+}
+
+/* #seznam-webu {
+
+} */
+
+#weby {
+    background-color: #fff1e6;
 }
