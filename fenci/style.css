@@ -4,6 +4,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+a {
+    font-style: italic;
+}
+
 #fenci-hlava {
     text-align: center;
     font-size: 40px;

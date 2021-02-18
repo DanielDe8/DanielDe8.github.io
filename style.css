@@ -4,6 +4,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+a {
+    font-style: italic;
+}
+
 #logo {
     width: 30px; 
     vertical-align: middle;
@@ -41,12 +45,19 @@ h1 {
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
 }
 
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0;
+}
+
 .space {
     margin-right: 100px;
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Playfair Display', serif;
     font-style: italic; 
     text-align: center;
@@ -71,10 +82,19 @@ section {
     padding: 50px 15% 50px 15%;
 }
 
-/* #seznam-webu {
-
-} */
-
 #weby {
     background-color: #fff1e6;
+}
+
+#weby h2 {
+    text-align: center;
+}
+
+#seznam-webu {
+    text-align: center; 
+    padding-right: 200px;
+}
+
+#seznam-webu li{
+    font-size: 30px;
 }
