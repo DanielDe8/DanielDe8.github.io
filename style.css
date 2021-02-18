@@ -37,6 +37,25 @@ a {
     background-color: #756158;
 }
 
+.space {
+    margin-right: 100px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic; 
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+a {
+    color: #756158;
+}
+
 h1 {
     font-size: 80px;
     text-align: center;
@@ -49,18 +68,6 @@ h2 {
     font-size: 48px;
     text-align: center;
     margin-top: 0;
-}
-
-.space {
-    margin-right: 100px;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Playfair Display', serif;
-    font-style: italic; 
-    text-align: center;
 }
 
 header {
@@ -92,7 +99,7 @@ section {
 
 #seznam-webu {
     text-align: center; 
-    padding-right: 200px;
+    padding-right: 250px;
 }
 
 #seznam-webu li{
