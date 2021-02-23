@@ -62,12 +62,17 @@ h2 {
     vertical-align: middle;
 }
 
+#info {
+    background-color: rgb(247, 175, 82);
+}
+
 #galerie {
     text-align: center;
     background-color: rgb(255, 155, 23);
 }
 
-#info {
+#videa {
+    text-align: center;
     background-color: rgb(247, 175, 82);
 }
 
