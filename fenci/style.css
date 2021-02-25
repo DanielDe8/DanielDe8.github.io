@@ -88,8 +88,19 @@ h2 {
     border-radius: 10px;
 }
 
+.video-fenka {
+    width: 560; 
+    height: 315;
+}
+
+section h2 {
+    padding-top: 70px;
+}
+
 section {
-    padding: 50px 15% 50px 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 50px;
     font-size: 20px;
 }
 

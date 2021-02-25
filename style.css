@@ -107,15 +107,17 @@ section {
     background-color: #fff1e6;
 }
 
-#weby h2 {
+section h2 {
     text-align: center;
 }
 
-#seznam-webu {
+#seznam-webu,
+#seznam-her {
     text-align: center; 
     padding-right: 250px;
 }
 
-#seznam-webu li{
+#seznam-webu li,
+#seznam-her li {
     font-size: 30px;
 }
