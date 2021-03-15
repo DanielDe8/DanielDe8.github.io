@@ -83,14 +83,17 @@ h2 {
 }
 
 .obrazek-fenka {
-    width: 32%;
     border: 2px solid #756158;
     border-radius: 10px;
 }
 
+.video-fenka, 
+.obrazek-fenka {
+    width: 32%;
+}
+
 .video-fenka {
-    width: 560; 
-    height: 315;
+    height: 250px;
 }
 
 section h2 {

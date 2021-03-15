@@ -1,21 +1,62 @@
 clear
 
-echo -n "Project name [Project]: "
-read NAME
-if [ "$NAME" = "" ]
-then
-    NAME="Project"
-fi
+while [ true ]
+do
+    echo -n "Project name [Project]: "
+    read NAME
+    if [ "$NAME" = "" ]
+    then
+        NAME="Project"
+    fi
 
-echo "Project language [1..2]"
-echo "1: Kotlin(default)"
-echo "2: Java"
+    echo "Project language [1..2]"
+    echo "1: Kotlin(default)"
+    echo "2: Java"
 
-read LANG
-if [ "$LANG" = "" ]
-then
-    LANG="1"
-fi
+    read LANG
+    if [ "$LANG" = "" ]
+    then
+        LANG="1"
+    fi
+    
+    while [ true ]
+    do
+        if [[ "$LANG" != 1 ] || [ "$LANG" != 2 ]]
+        then
+            echo "Invalid selection"
+        else
+            break
+        fi
+    done
 
-echo -n "Project package [no package]: "
-read PKG
+    echo "Project template [1..2]"
+    echo "1: Hello world(default)"
+    echo "2: Blank"
+
+    read TEMP
+    if [ "$TEMP" = "" ]
+    then
+        TEMP="1"
+    fi
+    
+    while [ true ]
+    do
+        if [[ "$TEMP" != 1 ] || [ "$TEMP" != 2 ]]
+        then
+            echo "Invalid selection"
+        else
+            break
+        fi
+    done
+
+    echo -n "Project package [no package]: "
+    read PKG
+
+    if [ -f "~/Documents/FrameworkProjects/$NAME"]
+    then
+        echo "Project exist."
+    else
+        break
+    fi
+done
+
