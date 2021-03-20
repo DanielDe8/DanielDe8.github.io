@@ -48,6 +48,10 @@ h1,
 h2, 
 h3 {
     font-family: 'Playfair Display', serif;
+}
+
+h1,
+h2 {
     text-align: center;
 }
 
@@ -72,9 +76,9 @@ h2 {
 }
 
 h3 {
-    margin: 0;
-    font-size: 40px;
+    font-size: 35px;
 }
+
 
 header {
     background-image: url(head.jpg);
@@ -107,7 +111,9 @@ section {
     background-color: #fff1e6;
 }
 
-#
+#hry {
+    background-color: #f9e3d0;
+}
 
 section h2 {
     text-align: center;
@@ -122,4 +128,16 @@ section h2 {
 #seznam-webu li,
 #seznam-her li {
     font-size: 30px;
+}
+
+/* NumberGame */
+#stahnout-numbergame {
+    text-align: unset;
+    margin-left: 200px;
+}
+
+#stahnout-numbergame li {
+    text-align: unset;
+    margin-left: 20px;
+    padding-bottom: 30px;
 }
