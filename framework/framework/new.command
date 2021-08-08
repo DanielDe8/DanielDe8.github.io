@@ -2,7 +2,7 @@ clear
 
 while [ true ]
 do
-    echo -n "Project name [Project]: "
+    echo -n "Project name [Project]: " 
     read NAME
     if [ "$NAME" = "" ]
     then
@@ -21,9 +21,9 @@ do
     
     while [ true ]
     do
-        if [[ "$LANG" != 1 ] || [ "$LANG" != 2 ]]
+        if [[ "$LANG" != 1 ] -o [ "$LANG" != 2 ]]
         then
-            echo "Invalid selection"
+            echo "Invalid selection."
         else
             break
         fi
@@ -49,9 +49,6 @@ do
         fi
     done
 
-    echo -n "Project package [no package]: "
-    read PKG
-
     if [ -f "~/Documents/FrameworkProjects/$NAME"]
     then
         echo "Project exist."
@@ -59,4 +56,5 @@ do
         break
     fi
 done
+
 
